@@ -176,6 +176,13 @@
 /obj/structure/destructible/cult/pylon,
 /turf/open/floor/plating/asteroid/snow/complex,
 /area/awaymission/complex/exterior)
+"afp" = (
+/obj/effect/decal/remains/human,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "afq" = (
 /obj/structure/barricade/wooden,
 /turf/closed/indestructible/rock/snow,
@@ -301,6 +308,15 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/awaymission/complex/facilityresearch)
+"aix" = (
+/obj/machinery/camera/autoname/complex{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "aiL" = (
 /obj/machinery/space_heater,
 /turf/open/floor/wood/damturf/broken7,
@@ -834,6 +850,14 @@
 /mob/living/simple_animal/hostile/russian/ranged/remnant,
 /turf/open/floor/plating/asteroid/snow/complex,
 /area/awaymission/complex/exterior)
+"aGO" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/machinery/atmospherics/pipe/simple/general,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/awaymission/complex/security)
 "aGR" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -1161,7 +1185,9 @@
 /turf/open/floor/plasteel,
 /area/awaymission/complex/gateway)
 "aSL" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/awaymission/complex/prison)
 "aSU" = (
@@ -1183,7 +1209,9 @@
 	},
 /area/awaymission/complex/gateway)
 "aTa" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
 /area/awaymission/complex/security)
@@ -1592,7 +1620,9 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /turf/open/floor/plating/snowed/complex,
 /area/awaymission/complex/cultfacility)
 "bhO" = (
@@ -1652,7 +1682,9 @@
 /turf/open/pool,
 /area/awaymission/complex/dorms)
 "bmb" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
 /area/awaymission/complex/prison)
@@ -2022,6 +2054,10 @@
 "bDO" = (
 /turf/open/floor/plasteel,
 /area/awaymission/complex/gateway)
+"bEn" = (
+/obj/structure/frame/computer,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/awaymission/complex/exterior)
 "bEL" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable{
@@ -2198,6 +2234,14 @@
 	},
 /turf/open/floor/carpet,
 /area/awaymission/complex/command)
+"bQf" = (
+/obj/machinery/atmospherics/pipe/simple/general,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "bQo" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/plasteel,
@@ -2281,6 +2325,10 @@
 /obj/structure/destructible/clockwork/trap/brass_skewer,
 /turf/open/floor/plasteel/cult,
 /area/awaymission/complex/cultholdout)
+"bTI" = (
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/wood,
+/area/awaymission/complex/command)
 "bTW" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/stripes/line,
@@ -4156,6 +4204,9 @@
 	},
 /turf/open/floor/carpet,
 /area/awaymission/complex/security)
+"dru" = (
+/turf/open/floor/plating/snowed/temperatre,
+/area/awaymission/complex/exterior)
 "drF" = (
 /obj/structure/chair{
 	dir = 4
@@ -4253,7 +4304,9 @@
 /turf/open/floor/plating,
 /area/awaymission/complex/engineering)
 "dwz" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/awaymission/complex/engineering)
@@ -4262,6 +4315,9 @@
 /area/awaymission/complex/gravgen)
 "dwQ" = (
 /obj/machinery/door/airlock/maintenance,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/awaymission/complex/security)
 "dwZ" = (
@@ -4411,6 +4467,7 @@
 "dAJ" = (
 /obj/structure/table,
 /obj/item/book/manual/wiki/cit/chemistry,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/janitorial)
 "dBq" = (
@@ -4717,7 +4774,9 @@
 /turf/open/floor/plasteel,
 /area/awaymission/complex/janitorial)
 "dSb" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating,
@@ -5148,6 +5207,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/cult,
 /area/awaymission/complex/cultholdout)
+"eev" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/railing,
+/turf/open/floor/plating/asteroid/snow/complex,
+/area/awaymission/complex/exterior)
 "eeD" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/red{
@@ -5244,6 +5308,17 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/hydroponics)
+"ehA" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/structure/closet/crate/trashcart,
+/obj/item/trash/cheesie,
+/obj/item/trash/sosjerky,
+/obj/item/trash/sosjerky,
+/obj/item/trash/popcorn,
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "ehT" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
@@ -5769,7 +5844,9 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/complex/facilityresearch)
 "eAI" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/awaymission/complex/security)
@@ -5852,6 +5929,11 @@
 /obj/machinery/atmospherics/pipe/simple/general{
 	dir = 4
 	},
+/turf/open/floor/plasteel/white,
+/area/awaymission/complex/medical)
+"eCy" = (
+/obj/structure/bed/roller,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel/white,
 /area/awaymission/complex/medical)
 "eCW" = (
@@ -6110,11 +6192,12 @@
 /turf/open/floor/plating,
 /area/awaymission/complex/hydroponics)
 "eNZ" = (
-/obj/structure/window/reinforced/fulltile/ice,
-/obj/structure/grille,
-/obj/structure/barricade/wooden/crude/snow,
-/turf/open/space/basic,
-/area/awaymission/complex/gatehouse)
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/landmark/awaystart,
+/turf/open/floor/plating,
+/area/awaymission/complex/gateway)
 "eOf" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -6258,6 +6341,15 @@
 /obj/machinery/atmospherics/pipe/simple/general,
 /turf/closed/wall/ice,
 /area/awaymission/complex/medical)
+"eSA" = (
+/obj/machinery/atmospherics/pipe/manifold/general{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "eSQ" = (
 /obj/item/ammo_casing/caseless/foam_dart/riot,
 /turf/open/floor/plating/asteroid/snow/complex{
@@ -6944,6 +7036,16 @@
 /obj/item/clothing/suit/hooded/cultrobes/berserker,
 /turf/open/floor/plasteel/white,
 /area/awaymission/complex/facilityresearch)
+"fvR" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/obj/structure/closet/crate/science,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "fwf" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -7886,6 +7988,12 @@
 /obj/item/reagent_containers/food/snacks/rationpack,
 /turf/open/floor/wood,
 /area/awaymission/complex/outpost)
+"ghi" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "ghI" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
@@ -8160,10 +8268,13 @@
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/gatehouse)
 "gsS" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/awaymission/complex/mainfacility)
 "gsX" = (
@@ -8633,6 +8744,9 @@
 "gNG" = (
 /obj/machinery/atmospherics/pipe/simple/general,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plating,
 /area/awaymission/complex/security)
 "gNU" = (
@@ -8942,7 +9056,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/yellow,
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/engineering)
 "gYV" = (
@@ -8955,6 +9071,10 @@
 	floor_variance = 0
 	},
 /area/awaymission/complex/exterior)
+"gZr" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood,
+/area/awaymission/complex/minerhouse)
 "gZt" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -8981,6 +9101,16 @@
 	floor_variance = 0
 	},
 /area/awaymission/complex/cultfacility)
+"hax" = (
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/awaymission/complex/engineering)
 "haN" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/red{
@@ -9259,6 +9389,9 @@
 "hnD" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel{
 	dir = 8;
@@ -9549,7 +9682,7 @@
 /turf/open/floor/plasteel,
 /area/awaymission/complex/security)
 "hBR" = (
-/obj/item/gun/ballistic/revolver/nagant,
+/obj/item/gun/ballistic/automatic/pistol/m9mmpistol,
 /turf/open/floor/plating/asteroid/snow/complex{
 	slowdown = 1;
 	icon_state = "snow_dug";
@@ -10030,6 +10163,22 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/complex/engineering)
+"hPB" = (
+/obj/machinery/atmospherics/pipe/simple/general,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
+"hPL" = (
+/obj/machinery/atmospherics/pipe/simple/general{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "hPP" = (
 /obj/structure/table,
 /obj/item/integrated_circuit_printer,
@@ -10229,6 +10378,15 @@
 	},
 /turf/open/floor/festive/cobblestone/safe,
 /area/awaymission/complex/logistics)
+"hWD" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "hXf" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
@@ -10729,6 +10887,10 @@
 /obj/machinery/atmospherics/pipe/simple/general,
 /turf/open/floor/plating/snowed/complex,
 /area/awaymission/complex/cultfacility)
+"isp" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/awaymission/complex/exterior)
 "isU" = (
 /obj/machinery/atmospherics/pipe/manifold/general,
 /turf/open/floor/plasteel/white,
@@ -12092,6 +12254,12 @@
 	floor_variance = 0
 	},
 /area/awaymission/complex/cultholdout)
+"jyQ" = (
+/obj/effect/turf_decal/tile/red,
+/obj/item/ammo_casing/c9mm,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "jyR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
@@ -12142,6 +12310,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/wood,
 /area/awaymission/complex/woodcabin)
 "jBg" = (
@@ -13003,6 +13172,7 @@
 /area/awaymission/complex/logistics)
 "kfg" = (
 /obj/machinery/camera,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/gateway)
 "kfr" = (
@@ -13145,6 +13315,10 @@
 	floor_variance = 0
 	},
 /area/awaymission/complex/research)
+"kkV" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plating/snowed/temperatre,
+/area/awaymission/complex/exterior)
 "klI" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -13173,6 +13347,10 @@
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/snow/complex,
+/area/awaymission/complex/exterior)
+"kmq" = (
+/obj/effect/decal/cleanable/shreds,
+/turf/open/floor/plating/snowed/temperatre,
 /area/awaymission/complex/exterior)
 "kmy" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -13332,6 +13510,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/janitorial)
+"kqW" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "kqY" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/knife,
@@ -14113,6 +14300,12 @@
 "kYM" = (
 /turf/open/floor/plating,
 /area/awaymission/complex/janitorial)
+"laH" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/wood,
+/area/awaymission/complex/miningcamp)
 "laL" = (
 /obj/item/stack/cable_coil/cut,
 /turf/open/floor/plating/asteroid/snow/complex,
@@ -14385,6 +14578,7 @@
 /area/awaymission/complex/medical)
 "lno" = (
 /obj/machinery/camera/autoname/complex,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/prison)
 "lnC" = (
@@ -15680,6 +15874,15 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/awaymission/complex/engineering)
+"mvS" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "mwn" = (
 /obj/structure/table/wood,
 /obj/machinery/camera/autoname/complex{
@@ -15690,6 +15893,12 @@
 "mwq" = (
 /turf/closed/indestructible/rock/snow,
 /area/awaymission/complex/research)
+"mwy" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "mwD" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
@@ -16217,6 +16426,13 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel/white,
 /area/awaymission/complex/medical)
+"mOu" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "mOv" = (
 /obj/machinery/modular_computer/console/preset/civilian{
 	dir = 8
@@ -16431,6 +16647,14 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plating/snowed/complex,
 /area/awaymission/complex/cultfacility)
+"mXl" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/effect/landmark/awaystart,
+/turf/open/floor/plating,
+/area/awaymission/complex/gateway)
 "mXs" = (
 /obj/structure/chair/wood/normal{
 	dir = 8
@@ -16970,6 +17194,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/cafeteria,
 /area/awaymission/complex/mainfacility)
+"nvc" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/item/stack/cable_coil,
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "nvv" = (
 /obj/machinery/atmospherics/pipe/manifold/general{
 	dir = 8
@@ -17079,7 +17313,9 @@
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/awaymission/complex/exterior)
 "nzo" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/awaymission/complex/hydroponics)
@@ -17261,6 +17497,7 @@
 /turf/open/floor/plasteel,
 /area/awaymission/complex/hydroponics)
 "nHB" = (
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plating,
 /area/awaymission/complex/dorms)
 "nHE" = (
@@ -17487,6 +17724,17 @@
 "nRw" = (
 /obj/structure/barricade/wooden/snowed,
 /turf/open/floor/plating/snowed/smoothed/warmer,
+/area/awaymission/complex/exterior)
+"nRB" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/power/port_gen/pacman,
+/turf/open/floor/plating/snowed/complex,
 /area/awaymission/complex/exterior)
 "nSe" = (
 /obj/structure/chair{
@@ -17911,6 +18159,18 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/complex/command)
+"okM" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "okR" = (
 /obj/machinery/atmospherics/pipe/simple/general{
 	dir = 10
@@ -17965,7 +18225,9 @@
 /turf/open/floor/carpet,
 /area/awaymission/complex/research)
 "onh" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
@@ -19284,6 +19546,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/awaymission/complex/medical)
+"pqm" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "pqR" = (
 /turf/open/floor/plating,
 /area/awaymission/complex/gatehouse)
@@ -19688,7 +19957,9 @@
 /turf/open/floor/plating,
 /area/awaymission/complex/outpost)
 "pFt" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/awaymission/complex/mainfacility)
 "pFM" = (
@@ -19931,7 +20202,9 @@
 /turf/open/floor/wood,
 /area/awaymission/complex/research)
 "pOM" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/awaymission/complex/janitorial)
@@ -20230,6 +20503,13 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plating,
 /area/awaymission/complex/medical)
+"pZU" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/awaymission/complex/research)
 "qaM" = (
 /obj/structure/closet,
 /obj/item/reagent_containers/food/snacks/grown/oat,
@@ -20463,6 +20743,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/logistics)
+"qkD" = (
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/plating/snowed/temperatre,
+/area/awaymission/complex/exterior)
 "qlk" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/passive_vent{
@@ -20488,6 +20772,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/awaymission/complex/prison)
@@ -20579,6 +20866,7 @@
 	},
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/east,
 /turf/open/floor/plasteel/white,
 /area/awaymission/complex/facilityresearch)
 "qqp" = (
@@ -20908,6 +21196,9 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/awaymission/complex/security)
@@ -21313,6 +21604,13 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/complex/engineering)
+"qUK" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/snow/complex,
+/area/awaymission/complex/exterior)
 "qWk" = (
 /obj/effect/decal/cleanable/ash/large,
 /turf/open/floor/plating/ashplanet/ash,
@@ -21925,6 +22223,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/prison)
+"rra" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/closet/crate/engineering/electrical,
+/obj/item/wrench,
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "rrd" = (
 /obj/structure/railing,
 /obj/machinery/power/smes,
@@ -22048,6 +22358,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/cult,
 /area/awaymission/complex/cultfacility)
+"rul" = (
+/obj/machinery/atmospherics/pipe/manifold4w/general,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "ruo" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 6
@@ -22195,6 +22512,10 @@
 /obj/item/ammo_casing/a762,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/security)
+"rzI" = (
+/obj/structure/lattice,
+/turf/open/floor/plating/snowed/temperatre,
+/area/awaymission/complex/exterior)
 "rzJ" = (
 /turf/open/floor/plating/asteroid/snow/complex{
 	slowdown = 1;
@@ -22503,6 +22824,15 @@
 	},
 /turf/open/floor/plating/asteroid/snow/complex,
 /area/awaymission/complex/exterior)
+"rIz" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "rID" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/closet/crate/internals,
@@ -22620,6 +22950,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/red,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/security)
 "rME" = (
@@ -22703,6 +23036,10 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 6
 	},
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
+"rQd" = (
+/obj/item/screwdriver,
 /turf/open/floor/plating/snowed/complex,
 /area/awaymission/complex/exterior)
 "rQu" = (
@@ -23044,6 +23381,9 @@
 /area/awaymission/complex/exterior)
 "sdr" = (
 /obj/machinery/power/floodlight,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/plating/asteroid/snow/complex,
 /area/awaymission/complex/exterior)
 "sdt" = (
@@ -23141,6 +23481,11 @@
 	},
 /turf/open/floor/festive/cobblestone/safe,
 /area/awaymission/complex/logistics)
+"sgY" = (
+/mob/living/simple_animal/hostile/russian/remnant,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel/cult,
+/area/awaymission/complex/cultfacility)
 "sha" = (
 /turf/open/floor/engine/vacuum,
 /area/awaymission/complex/engineering)
@@ -23195,6 +23540,16 @@
 	},
 /turf/open/floor/plasteel/cult,
 /area/awaymission/complex/cultfacility)
+"sit" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plasteel{
+	dir = 8;
+	heat_capacity = 1e+006;
+	icon_state = "damaged1"
+	},
+/area/awaymission/complex/security)
 "siw" = (
 /obj/structure/fence/cut/large{
 	dir = 4
@@ -23754,6 +24109,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/security)
+"sEP" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/closet,
+/obj/structure/closet,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "sEY" = (
 /obj/machinery/atmospherics/pipe/simple/general{
 	dir = 4
@@ -23792,6 +24158,10 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/awaymission/complex/gravgen)
+"sFP" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/awaymission/complex/mainfacility)
 "sGe" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -24013,6 +24383,11 @@
 /area/awaymission/complex/prison)
 "sOv" = (
 /turf/open/floor/plating/snowed/smoothed/warmer,
+/area/awaymission/complex/exterior)
+"sOF" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/obj/structure/ore_box,
+/turf/open/floor/plating/snowed/complex,
 /area/awaymission/complex/exterior)
 "sPb" = (
 /obj/structure/chair/sofa{
@@ -24506,6 +24881,7 @@
 /area/awaymission/complex/woodcabin)
 "tkS" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack,
 /turf/open/floor/plating,
 /area/awaymission/complex/prison)
 "tlv" = (
@@ -25407,6 +25783,15 @@
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/plasteel/white,
 /area/awaymission/complex/medical)
+"tRL" = (
+/obj/effect/turf_decal/tile/green,
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/plasteel,
+/area/awaymission/complex/hydroponics)
 "tSb" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck,
@@ -25669,6 +26054,11 @@
 	floor_variance = 0
 	},
 /area/awaymission/complex/cultfacility)
+"udl" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/landmark/awaystart,
+/turf/open/floor/plating,
+/area/awaymission/complex/gateway)
 "udC" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 1
@@ -26179,6 +26569,11 @@
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/plating/ashplanet/ash,
 /area/awaymission/complex/janitorial)
+"uyg" = (
+/obj/machinery/power/floodlight,
+/obj/structure/cable,
+/turf/open/floor/plating/asteroid/snow/complex,
+/area/awaymission/complex/exterior)
 "uyo" = (
 /obj/machinery/poweredfans,
 /obj/machinery/door/airlock/maintenance,
@@ -27290,6 +27685,12 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/security)
 "vro" = (
@@ -27442,6 +27843,9 @@
 "vvN" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible{
 	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/awaymission/complex/prison)
@@ -27892,6 +28296,11 @@
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
 /area/awaymission/complex/woodcabin)
+"vLN" = (
+/obj/structure/lattice,
+/obj/structure/frame,
+/turf/open/floor/plating/snowed/temperatre,
+/area/awaymission/complex/exterior)
 "vMb" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -28174,6 +28583,17 @@
 /obj/effect/rune/blood_boil,
 /turf/open/floor/plating,
 /area/awaymission/complex/cultholdout)
+"vWw" = (
+/obj/structure/frame,
+/turf/open/floor/plating/snowed/temperatre,
+/area/awaymission/complex/exterior)
+"vWy" = (
+/obj/structure/fence,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/asteroid/snow/complex,
+/area/awaymission/complex/exterior)
 "vWI" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
@@ -28287,7 +28707,9 @@
 /area/awaymission/complex/janitorial)
 "wbN" = (
 /obj/effect/turf_decal/bot,
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/awaymission/complex/research)
 "wcm" = (
@@ -28904,6 +29326,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/medical)
+"wCo" = (
+/obj/structure/frame/computer,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/awaymission/complex/exterior)
 "wCz" = (
 /obj/item/trash/can,
 /obj/machinery/light{
@@ -28938,6 +29365,11 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating/rust,
 /area/awaymission/complex/cultcabin)
+"wEP" = (
+/obj/structure/lattice,
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plating/snowed/temperatre,
+/area/awaymission/complex/exterior)
 "wFi" = (
 /obj/machinery/iv_drip,
 /obj/machinery/light/broken{
@@ -29176,6 +29608,15 @@
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plating,
 /area/awaymission/complex/janitorial)
+"wPP" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/plasteel,
+/area/awaymission/complex/logistics)
 "wPR" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
@@ -30351,6 +30792,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/complex/security)
+"xQw" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/complex/security)
 "xRU" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile/ice,
@@ -30374,7 +30821,9 @@
 /turf/open/floor/plating,
 /area/awaymission/complex/engineering)
 "xTg" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/awaymission/complex/hydroponics)
 "xTw" = (
@@ -30513,7 +30962,9 @@
 /turf/open/floor/plating,
 /area/awaymission/complex/minerhouse)
 "ycy" = (
-/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
+	dir = 4
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/awaymission/complex/engineering)
@@ -30565,6 +31016,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel,
 /area/awaymission/complex/security)
+"yep" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating/snowed/complex,
+/area/awaymission/complex/exterior)
 "yer" = (
 /obj/machinery/sleeper,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -33569,8 +34029,8 @@ nzu
 nzu
 ajD
 kpj
-kpj
-eOZ
+mXl
+eNZ
 qSx
 nzu
 nzu
@@ -33826,8 +34286,8 @@ nzu
 nzu
 ixf
 jal
-myt
-eOZ
+udl
+eNZ
 bMq
 rRW
 epx
@@ -34083,8 +34543,8 @@ nzu
 nzu
 ccF
 myt
-myt
-eOZ
+udl
+eNZ
 ybM
 lRD
 kGm
@@ -38415,7 +38875,7 @@ hfl
 iEi
 vUA
 cOT
-ohQ
+laH
 bMM
 jRV
 sQR
@@ -41789,7 +42249,7 @@ rkE
 rkE
 rkE
 rkE
-rkE
+gIA
 rkE
 rkE
 rkE
@@ -41895,7 +42355,7 @@ cJp
 vxk
 sIu
 cAN
-iHu
+tRL
 iHu
 iHu
 iHu
@@ -50644,7 +51104,7 @@ xhq
 aOL
 pqX
 sFC
-nQW
+gZr
 nQW
 tHk
 yeG
@@ -51313,9 +51773,9 @@ sOv
 sOv
 sOv
 gIA
-gIA
 iiT
-wsx
+gIA
+sxR
 cAB
 ioi
 gdg
@@ -52346,8 +52806,8 @@ gIA
 wsx
 wsx
 wsx
-eNZ
-eNZ
+axC
+axC
 fky
 fky
 swE
@@ -52601,10 +53061,10 @@ gIA
 iwF
 ssH
 gIA
-aKy
-aKy
-aKy
-aKy
+eev
+hWD
+sEP
+qUK
 aKy
 gIA
 sOv
@@ -52845,9 +53305,9 @@ ssH
 gIA
 gIA
 iDa
-gIA
-gIA
-gIA
+nRB
+mvS
+yep
 gIA
 gIA
 sOv
@@ -52858,10 +53318,10 @@ gIA
 gIA
 gIA
 gIA
-gIA
-gIA
-gIA
-gIA
+vwZ
+enY
+ehA
+rnp
 sQR
 gIA
 sOv
@@ -53102,11 +53562,11 @@ gIA
 gIA
 whP
 iDa
-gIA
-gIA
-gIA
-gIA
-gIA
+fvR
+aRw
+sOF
+sOv
+sOv
 sOv
 sOv
 sOv
@@ -53359,11 +53819,11 @@ gIA
 gIA
 iiT
 iDa
-gIA
-gIA
-gIA
-gIA
-gIA
+pqm
+rQd
+cht
+sOv
+sOv
 sOv
 sOv
 sOv
@@ -53616,9 +54076,9 @@ gIA
 gIA
 gIA
 iDa
-gIA
-gIA
-gIA
+rra
+rIz
+nvc
 gIA
 gIA
 sOv
@@ -55015,7 +55475,7 @@ eoV
 kHd
 hSI
 rkR
-aGV
+bTI
 nYd
 hSI
 qDU
@@ -60675,7 +61135,7 @@ fPz
 wmg
 vNB
 gLm
-jfU
+wPP
 nIn
 fDE
 nNi
@@ -61473,7 +61933,7 @@ vKM
 rPC
 wgM
 kVK
-flu
+eCy
 vjb
 sxl
 sxl
@@ -61968,7 +62428,7 @@ mEC
 vPF
 gkO
 nIn
-cGd
+sFP
 fgw
 rfA
 kVK
@@ -73367,7 +73827,7 @@ mFi
 rPY
 bgY
 oXP
-pPy
+sgY
 goK
 nWn
 lRy
@@ -77034,8 +77494,8 @@ iGx
 erQ
 iGx
 sOv
-gIA
-sdr
+jTn
+uyg
 sQR
 iDa
 gIA
@@ -77272,7 +77732,7 @@ gIA
 gIA
 nyz
 rhv
-rhv
+vWy
 rhv
 dUT
 iGx
@@ -77291,7 +77751,7 @@ iGx
 erQ
 iGx
 edw
-rhv
+vWy
 rhv
 rhv
 ioB
@@ -77529,7 +77989,7 @@ gIA
 iiT
 iDa
 gIA
-gIA
+hES
 iwF
 sOv
 iGx
@@ -77548,7 +78008,7 @@ iGx
 erQ
 iGx
 sOv
-gIA
+hES
 jPd
 gIA
 bmO
@@ -77786,7 +78246,7 @@ gIA
 gIA
 iDa
 jPd
-gIA
+hES
 gIA
 sOv
 iGx
@@ -77805,7 +78265,7 @@ iGx
 erQ
 iGx
 sOv
-gIA
+hES
 gIA
 gIA
 iDa
@@ -78043,7 +78503,7 @@ gIA
 iwF
 iDa
 ssH
-sOv
+pJH
 sOv
 sOv
 iGx
@@ -78062,7 +78522,7 @@ ixn
 erQ
 iGx
 sOv
-sOv
+pJH
 gIA
 iwF
 iDa
@@ -78557,11 +79017,11 @@ hRD
 aYl
 aeP
 iGx
-erQ
+xQw
 hnD
-pWS
-xPr
-erQ
+okM
+kqW
+ghi
 cKF
 gcy
 jVR
@@ -78573,9 +79033,9 @@ pXK
 rTD
 coo
 aBs
-uQz
-scu
-sRA
+sit
+afp
+aix
 qDT
 ndA
 qFt
@@ -78818,7 +79278,7 @@ fBI
 erQ
 erQ
 erQ
-erQ
+mwy
 umM
 gcy
 gPj
@@ -78830,7 +79290,7 @@ gcy
 wlG
 gcy
 gcy
-erQ
+mwy
 efB
 wiV
 nSi
@@ -79075,7 +79535,7 @@ wjq
 uVo
 njx
 pwC
-erQ
+mwy
 tVb
 gcy
 uqV
@@ -79087,7 +79547,7 @@ hsQ
 reN
 iYS
 gcy
-fBI
+mOu
 sIf
 yma
 xry
@@ -79332,19 +79792,19 @@ gcy
 oyn
 gcy
 rsh
-kNw
-dtm
-xGE
+hPL
+hPB
+aGO
 gNG
-dtm
-dtm
-anw
-dtm
-vMO
+hPB
+hPB
+rul
+hPB
+eSA
 vri
 rMC
-xGE
-dYq
+aGO
+bQf
 wTv
 erQ
 erQ
@@ -81915,7 +82375,7 @@ lPd
 hHV
 mGq
 cQU
-uTd
+jyQ
 gzP
 ena
 ena
@@ -86130,7 +86590,7 @@ pHa
 tJu
 hnu
 pHa
-mEJ
+hax
 kve
 jem
 vaF
@@ -87040,7 +87500,7 @@ sOv
 sOv
 sOv
 sOv
-sOv
+htL
 sOv
 sOv
 lvo
@@ -87296,14 +87756,14 @@ sQR
 sOv
 sOv
 sOv
+vWw
+dru
 sOv
 sOv
 sOv
 sOv
-sOv
-sOv
-sOv
-sOv
+vLN
+kkV
 sOv
 sOv
 sOv
@@ -87553,17 +88013,17 @@ gIA
 sOv
 sOv
 sOv
+dru
+qkD
+rzI
 sOv
 sOv
 sOv
 sOv
+dru
+kmq
 sOv
-sOv
-sOv
-sOv
-sOv
-sOv
-sOv
+htL
 sOv
 sOv
 sOv
@@ -87810,17 +88270,17 @@ gIA
 gIA
 sOv
 sOv
+wEP
+vWw
+dru
+wCo
 sOv
 sOv
-sOv
-sOv
-sOv
-sOv
-sOv
-sOv
-sOv
-sOv
-sOv
+rzI
+dru
+vWw
+bEn
+isp
 sOv
 sOv
 sOv
@@ -88068,14 +88528,14 @@ jPd
 sOv
 sOv
 sOv
+vWw
+kmq
 sOv
 sOv
-sOv
-sOv
-sOv
-sOv
-sOv
-sOv
+htL
+vLN
+qkD
+rzI
 sOv
 sOv
 sOv
@@ -93907,7 +94367,7 @@ jKq
 xGS
 pYx
 dum
-fxn
+pZU
 cyn
 sJS
 djR
